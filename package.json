@@ -1,0 +1,13 @@
+{
+  "name": "mern-chat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "build":"npm install --prefix Api && npm install --prefix Frontend && npm run build  --prefix Frontend",
+  "start":"npm run start --prefix Api"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
