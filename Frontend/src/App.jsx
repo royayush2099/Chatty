@@ -3,7 +3,7 @@ import {Toaster} from 'react-hot-toast';
 import { Routes,Route, Navigate } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import SignUpPage from './pages/SignUpPage';
-import HomePage from './pages/Homepage';
+import HomePage from './pages/HomePage.jsx';
 import LoginPage from './pages/LoginPage';
 import ProfilePage from './pages/ProfilePage';
 import SettingPage from './pages/SettingPage'
